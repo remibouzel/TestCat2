@@ -58,4 +58,5 @@ TestCat2::Application.routes.draw do
   #     resources :products
   #   end
 root 'home#index'
+post 'shows/:id/book' => 'shows#book'
 end
